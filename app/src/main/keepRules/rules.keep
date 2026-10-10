@@ -1,0 +1,3 @@
+# Gson reflection is confined to remote DTOs; retain fields and constructors in release.
+-keep class com.safeflow.app.features.**.infrastructure.remote.**Dto { *; }
+-keep class com.safeflow.app.core.infrastructure.remote.ErrorDto { *; }
